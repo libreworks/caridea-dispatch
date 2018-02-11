@@ -1,7 +1,7 @@
 {
     "name": "caridea/dispatch",
     "type": "library",
-    "description": "A shrimp of a PSR-7 middleware dispatcher",
+    "description": "A shrimp of a PSR-15 compliant middleware dispatcher",
     "keywords": ["middleware", "dispatch", "request handler", "PSR-15", "PSR-7"],
     "homepage": "http://github.com/libreworks/caridea-dispatch",
     "license": "Apache-2.0",
