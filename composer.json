@@ -1,0 +1,42 @@
+{
+    "name": "caridea/dispatch",
+    "type": "library",
+    "description": "A shrimp of a PSR-7 middleware dispatcher",
+    "keywords": ["middleware", "dispatch", "request handler", "PSR-15", "PSR-7"],
+    "homepage": "http://github.com/libreworks/caridea-dispatch",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Caridea Contributors",
+            "homepage": "https://github.com/libreworks/caridea-dispatch/contributors"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    },
+    "provide": {
+        "psr/http-server-handler-implementation": "1.0.0",
+        "psr/http-server-middleware-implementation": "1.0.0"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "psr/http-server-middleware": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0.0",
+        "zendframework/zend-diactoros": "^1.0",
+        "psr/log": "^1.0"
+    },
+    "suggest": {
+        "psr/log": "Allows use of the Reporter middleware"
+    },
+    "autoload": {
+        "psr-4": {
+          "Caridea\\Dispatch\\": "src/"
+        }
+    }
+}
